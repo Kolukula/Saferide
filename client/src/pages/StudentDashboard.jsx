@@ -3,7 +3,7 @@ import axiosInstance from "../api/axiosInstance";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://saferide-eo3u.onrender.com");
 
 const MapUpdater = ({ lat, lng }) => {
   const map = useMap();
