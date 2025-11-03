@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
-import AdminDashboard from "./pages/Admindashboard.jsx";
+import AdminDashboard from "./pages/AdminDashboard.jsx";
 import DriverDashboard from "./pages/DriverDashboard.jsx";
 import StudentDashboard from "./pages/StudentDashboard.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
