@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import axiosInstance from "../api/axiosInstance";
+import axiosInstance from "../api/axiosInstance.js";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import io from "socket.io-client";
 

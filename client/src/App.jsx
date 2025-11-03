@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import AdminDashboard from "./pages/Admindashboard";
-import DriverDashboard from "./pages/DriverDashboard";
-import StudentDashboard from "./pages/StudentDashboard";
-import ProtectedRoute from "./components/ProtectedRoute";
-import Navbar from "./components/Navbar";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import AdminDashboard from "./pages/Admindashboard.jsx";
+import DriverDashboard from "./pages/DriverDashboard.jsx";
+import StudentDashboard from "./pages/StudentDashboard.jsx";
+import ProtectedRoute from "./components/ProtectedRoute.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 const App = () => {
   return (

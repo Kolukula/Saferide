@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axiosInstance from "../api/axiosInstance";
+import axiosInstance from "../api/axiosInstance.js";
 import { useNavigate, Link } from "react-router-dom";
 
 const Register = () => {
